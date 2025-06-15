@@ -16,14 +16,14 @@ jobs:
 
 
             - name: Building images
-              run: docker build -t ahmedlotfi15/usercls_image:latest .
+              run: docker build -t ahmedlotfi15/survival_image:latest .
 
 
             - name: login to docker hub
-              run: docker login -u ahmedlotfi15 -p ${{ secrets.USERCLS_IMAGE}}
+              run: docker login -u ahmedlotfi15 -p ${{ secrets.SURVIVAL_IMAGE}}
 
 
             - name: push images
-              run: docker push ahmedlotfi15/usercls_image:latest
+              run: docker push ahmedlotfi15/survival_image:latest
             
             
