@@ -1,6 +1,6 @@
 dataset
 env 
-gitignore
+.gitignore
 Dockerfile
 .gitattributes
 notebooks
